@@ -10,7 +10,40 @@ a {
     color: inherit;
 }
 
+/* COMMON */
+
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+}
+
+img {
+    max-width: 100%;
+}
+
+.small-button {
+    padding: 6px 10px;
+    border-radius: 25px;
+}
+
+.big-button {
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.title {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    /* font-size: 1.1rem; */
+}
+
 /* HEADER */
+header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
 
 /* header nav */
 .menu {
@@ -18,32 +51,33 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    /* debug */
-    background-color: #ADD8E6;
-}
-.navigation {
     padding: 7px;
-    
-    /* debug */
-    border: 1px dashed black;
-    background-color: orange;
+
+    /* debug
+    background-color: #ADD8E6; */
 }
 
 .logo {
     width: 15%;
+    display: flex;
+    align-items: center;
 }
 
 .list {
-    width: 35%;
+    width: 45%;
     display: flex;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-around;
+    /* gap: 50px; */
 }
 
 
 ul.list li {
     list-style-type: none;
+    color: white;
+}
+
+.white {
+    background-color: white;
 }
 
 .login {
@@ -53,23 +87,43 @@ ul.list li {
 }
 
 /* rest of header */
+
 .second-header {
     padding: 40px;
+    width: 60%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* debug */
-    background-color: #00008B;
+    /* debug
+    background-color: #00008B; */
 }
 
-.pink {
-    width: 500px;
-    height: 250px;
+.jumbotron {
+    text-align: center;
+    color: white;
+    text-align: center;
 
-    /* debug */
+    /* debug
     background-color: #EE82EE;
-    border: 1px dashed black;
+    border: 1px dashed black; */
 }
 
+.subtitle {
+    padding: 20px 5px;
+    line-height: 1.5rem;
+}
+
+.download {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.open {
+    background-color: #23272A;
+    display: inline-block;
+}
 
 /* MAIN */
 
@@ -78,14 +132,11 @@ ul.list li {
     justify-content: center;
     width: 70%;
     margin: 0 auto;
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 .square {
-    height: 350px;
-
-    /* debug */
-    border: 1px dashed black;
+    width: 35%;
 }
 
 .white {
@@ -106,19 +157,29 @@ ul.list li {
 }
 
 .photo {
-    width: 270px;
+    width: 65%;
+    padding: 10px;
+}
 
-    /* debug */
-    background-color: #FFC0CB;
+.sections {
+    display: flex;
+    padding: 70px 0;
+}
+
+.paragraph {
+    line-height: 1.3rem;
+}
+
+
+/* section 2 */
+.second-square {
+    padding: 20px 0;
 }
 
 /* section 4 */
-.green {
-    width: 720px;
-    height: 500px;
 
-    /* debug */
-    background-color: #228B22;
+.fourth {
+    text-align: center;
 }
 
 /* FOOTER */

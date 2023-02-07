@@ -40,10 +40,6 @@ img {
     margin-bottom: 20px;
 }
 
-.subtitle {
-    /* font-size: 1.1rem; */
-}
-
 ul {
     list-style-type: none;
 }
@@ -72,9 +68,6 @@ header {
     align-items: center;
     justify-content: center;
     padding: 7px;
-
-    /* debug
-    background-color: #ADD8E6; */
 }
 
 .logo {
@@ -87,7 +80,6 @@ header {
     width: 45%;
     display: flex;
     justify-content: space-around;
-    /* gap: 50px; */
 }
 
 
@@ -114,18 +106,12 @@ ul.list li {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    /* debug
-    background-color: #00008B; */
 }
 
 .jumbotron {
     text-align: center;
     color: white;
     text-align: center;
-
-    /* debug
-    background-color: #EE82EE;
-    border: 1px dashed black; */
 }
 
 .subtitle {
@@ -248,11 +234,6 @@ ul.first-list li {
 
 .aqua-column {
     width: calc((100% - 25%) / 4);
-    
-    /* debug
-    background-color: #20B2AA;
-    height: 350px;
-    border: 1px dashed white; */
 }
 
 .pink-column {
@@ -273,19 +254,9 @@ ul.first-list li {
     align-items: center;
 }
 
-/* button {
-    debug
-    border: 1px dashed black;
-    padding: 3px;
-} */
-
 ul.footer-list li {
     line-height: 2rem;
     color: white;
-}
-
-.first-one {
-    color: blue;
 }
 
 .assistenza {
@@ -293,12 +264,13 @@ ul.footer-list li {
 }
 
 hr {
-    border: 1px solid blue;
+    border: 1px solid var(--middleblue);
     width: 80%;
     margin: 0 auto;
 }
 
 .registrati {
-    background-color: blue;
+    background-color: var(--middleblue);
+    color: white;
 }
 

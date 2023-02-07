@@ -10,6 +10,11 @@ a {
     color: inherit;
 }
 
+:root {
+    --darkblue: #23272A;
+    --middleblue: #7289DA;
+}
+
 /* COMMON */
 
 body {
@@ -136,7 +141,7 @@ ul.list li {
 }
 
 .open {
-    background-color: #23272A;
+    background-color: var(--darkblue);
     display: inline-block;
 }
 
@@ -192,17 +197,25 @@ ul.list li {
     padding: 10px;
 }
 
+.download2 {
+    background-color: var(--middleblue);
+    color: white;
+    width: 17%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 /* FOOTER */
 /* footer first part */
 .footer-section {
     padding: 50px 0;
     /* debug */
-    background-color: #23272A;
+    background-color: var(--darkblue);
     border: 2px solid white;
 }
 
 .lightblue {
-    color: lightblue;
+    color: var(--middleblue);
 }
 
 h3 {
@@ -246,7 +259,7 @@ ul.first-list li {
     width: 25%;
 }
 .aqua-column li:first-child {
-    color: blue;
+    color: var(--middleblue);
 }
 
 /* footer second part */

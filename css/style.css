@@ -186,9 +186,10 @@ ul.list li {
 
 .adventure {
     background-image: url(../img/stars.svg);
-    /* background-size: contain; */
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top center;
+    padding: 10px;
 }
 
 /* FOOTER */
@@ -218,7 +219,6 @@ h3 {
     font-size: 0.8rem;
     color: white;
 }
-
 
 .socials {
     padding: 10px 0;
@@ -257,6 +257,7 @@ ul.first-list li {
     justify-content: space-between;
     margin: 0 auto;
     padding: 20px 0;
+    align-items: center;
 }
 
 /* button {

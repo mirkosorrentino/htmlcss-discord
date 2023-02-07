@@ -1,0 +1,160 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HEADER */
+
+/* header nav */
+.menu {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* debug */
+    background-color: #ADD8E6;
+}
+.navigation {
+    padding: 7px;
+    
+    /* debug */
+    border: 1px dashed black;
+    background-color: orange;
+}
+
+.logo {
+    width: 15%;
+}
+
+.list {
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+ul.list li {
+    list-style-type: none;
+}
+
+.login {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* rest of header */
+.second-header {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    /* debug */
+    background-color: #00008B;
+}
+
+.pink {
+    width: 500px;
+    height: 250px;
+
+    /* debug */
+    background-color: #EE82EE;
+    border: 1px dashed black;
+}
+
+
+/* MAIN */
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.square {
+    height: 350px;
+
+    /* debug */
+    border: 1px dashed black;
+}
+
+.white {
+    /* debug */
+    background-color: white;
+}
+
+.gray {
+    /* debug */
+    background-color: #D3D3D3;
+}
+
+.lightblue {
+    width: 450px;
+
+    /* debug */
+    background-color: #1E90FF;
+}
+
+.photo {
+    width: 270px;
+
+    /* debug */
+    background-color: #FFC0CB;
+}
+
+/* section 4 */
+.green {
+    width: 720px;
+    height: 500px;
+
+    /* debug */
+    background-color: #228B22;
+}
+
+/* FOOTER */
+/* footer first part */
+.footer-section {
+    /* debug */
+    background-color: #23272A;
+    border: 2px solid white;
+}
+.aqua-column {
+    width: calc(100%/6);
+    height: 350px;
+
+    /* debug */
+    background-color: #20B2AA;
+    border: 1px dashed white;
+}
+
+.pink-column {
+    width: calc(100%/3);
+    height: 350px;
+
+    /* debug */
+    background-color: #F08080;
+    border: 1px dashed black;
+}
+/* footer second part */
+
+.second-footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    /* debug */
+    border: 1px dashed black;
+    padding: 3px;
+}

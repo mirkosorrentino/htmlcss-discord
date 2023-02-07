@@ -39,6 +39,17 @@ img {
     /* font-size: 1.1rem; */
 }
 
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
 /* HEADER */
 header {
     background-image: url(../img/jumbo.png);
@@ -127,13 +138,6 @@ ul.list li {
 
 /* MAIN */
 
-.container {
-    display: flex;
-    justify-content: center;
-    width: 70%;
-    margin: 0 auto;
-    /* padding: 30px; */
-}
 
 .square {
     width: 35%;
@@ -149,12 +153,6 @@ ul.list li {
     background-color: #D3D3D3;
 }
 
-.lightblue {
-    width: 450px;
-
-    /* debug */
-    background-color: #1E90FF;
-}
 
 .photo {
     width: 65%;
@@ -182,40 +180,110 @@ ul.list li {
     text-align: center;
 }
 
+.adventure {
+    background-image: url(../img/stars.svg);
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 /* FOOTER */
 /* footer first part */
 .footer-section {
+    padding: 50px 0;
     /* debug */
     background-color: #23272A;
     border: 2px solid white;
 }
-.aqua-column {
-    width: calc(100%/6);
-    height: 350px;
 
-    /* debug */
+.lightblue {
+    color: lightblue;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.ita {
+    width: 10%;
+    vertical-align: middle;
+}
+
+.italian {
+    font-size: 0.8rem;
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.socials {
+    padding: 10px 0;
+    color: white;
+}
+
+ul.first-list li {
+    margin-bottom: 10px;
+}
+
+.symbol {
+    margin-right: 10px;
+}
+
+.aqua-column {
+    width: calc((100% - 25%) / 4);
+    
+    /* debug
     background-color: #20B2AA;
-    border: 1px dashed white;
+    height: 350px;
+    border: 1px dashed white; */
 }
 
 .pink-column {
-    width: calc(100%/3);
-    height: 350px;
-
-    /* debug */
-    background-color: #F08080;
-    border: 1px dashed black;
+    width: 25%;
 }
+.aqua-column li:first-child {
+    color: blue;
+}
+
 /* footer second part */
 
 .second-footer {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 0;
 }
 
-button {
+/* button {
     /* debug */
     border: 1px dashed black;
     padding: 3px;
+} */
+
+ul.footer-list li {
+    line-height: 2rem;
+    color: white;
 }
+
+.first-one {
+    color: blue;
+}
+
+.assistenza {
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 1px solid blue;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.registrati {
+    background-color: blue;
+}
+

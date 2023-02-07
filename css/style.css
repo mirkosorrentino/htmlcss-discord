@@ -50,6 +50,10 @@ ul {
     margin: 0 auto;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* HEADER */
 header {
     background-image: url(../img/jumbo.png);
@@ -215,9 +219,6 @@ h3 {
     color: white;
 }
 
-li {
-    list-style-type: none;
-}
 
 .socials {
     padding: 10px 0;
@@ -259,7 +260,7 @@ ul.first-list li {
 }
 
 /* button {
-    /* debug */
+    debug
     border: 1px dashed black;
     padding: 3px;
 } */
